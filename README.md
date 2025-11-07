@@ -7,86 +7,86 @@ The goal was to uncover spending trends, customer segments, and product insights
 
 📊 Dataset Summary
 
-Rows: 3,900
+1.Rows: 3,900
 
-Columns: 18
+2.Columns: 18
 
-Main Features:
+3.Main Features:
 
-Demographics: Age, Gender, Location, Subscription Status
+4.Demographics: Age, Gender, Location, Subscription Status
 
-Purchase Details: Item, Category, Purchase Amount, Season, Size, Color
+5.Purchase Details: Item, Category, Purchase Amount, Season, Size, Color
 
-Behavioral Attributes: Discount Applied, Review Rating, Shipping Type, Purchase Frequency
+6.Behavioral Attributes: Discount Applied, Review Rating, Shipping Type, Purchase Frequency
 
-Missing Values: 37 in review_rating (filled with median rating per category)
+7.Missing Values: 37 in review_rating (filled with median rating per category)
 
 🧹 Exploratory Data Analysis (Python)
 
 Performed with Pandas and NumPy:
 
-Cleaned and standardized column names
+1.Cleaned and standardized column names
 
-Handled missing values
+2.Handled missing values
 
 Created new columns:
 
-age_group (binned age categories)
+1.age_group (binned age categories)
 
-purchase_frequency_days (derived from timestamps)
+2.purchase_frequency_days (derived from timestamps)
 
-Checked redundancy (promo_code_used dropped)
+3.Checked redundancy (promo_code_used dropped)
 
-Loaded cleaned dataset into MySQL for analysis
+4.Loaded cleaned dataset into MySQL for analysis
 
 🧠 Data Analysis (MySQL)
 
 Conducted SQL-based exploration to answer 10 key business questions:
 
-Revenue comparison by gender
+1.Revenue comparison by gender
 
-High-spending discount users
+2.High-spending discount users
 
-Top 5 products by rating
+3.Top 5 products by rating
 
-Standard vs. Express shipping spend
+4.Standard vs. Express shipping spend
 
-Subscribers vs. non-subscribers
+5.Subscribers vs. non-subscribers
 
-Discount-dependent products
+6.Discount-dependent products
 
-Customer segmentation (New, Returning, Loyal)
+7.Customer segmentation (New, Returning, Loyal)
 
-Top 3 products in each category
+8.Top 3 products in each category
 
-Subscription likelihood of repeat buyers
+9.Subscription likelihood of repeat buyers
 
-Revenue by age group
+10.Revenue by age group
 
 📈 Power BI Dashboard
 
 Developed an interactive Power BI dashboard featuring:
 
-Revenue by demographics
+1.Revenue by demographics
 
-Product performance visualization
+2.Product performance visualization
 
-Subscription and loyalty segmentation
+3.Subscription and loyalty segmentation
 
-Purchase trends by shipping and discount usage
+4.Purchase trends by shipping and discount usage
 
 💼 Business Recommendations
 
-Increase Subscriptions: Offer member-only benefits
+1.Increase Subscriptions: Offer member-only benefits
 
-Loyalty Programs: Encourage repeat purchases
+2.Loyalty Programs: Encourage repeat purchases
 
-Discount Optimization: Protect profit margins
+3.Discount Optimization: Protect profit margins
 
-Product Focus: Highlight top-rated and best-sellers
+4.Product Focus: Highlight top-rated and best-sellers
 
-Targeted Marketing: Focus on high-value demographics
+5.Targeted Marketing: Focus on high-value demographics
 
 🛠️ Tech Stack
 
-Python, MySQL, Power BI, Pandas, Matplotlib, Seaborn
+- Python, MySQL, Power BI, Pandas, Matplotlib, Seaborn
